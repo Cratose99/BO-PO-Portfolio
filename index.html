@@ -10,8 +10,11 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -23,61 +26,395 @@
       crossorigin="anonymous"
     ></script>
     <script src="./logic.js"></script>
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css.css" />
+    <link rel="stylesheet" href="fixed.css" />
   </head>
-  
 
-  <body>
-      <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+  <body data-spy="scroll" data-target="#navbarResponsive">
+    <div id="home">
+      <!-- START Navigation -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">GWE</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END Navigation -->
+
+      <!-- START Landing Page Section -->
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+      </div>
+
+      <div class="caption text-center">
+        <h1>Gabriel Eyer</h1>
+        <h3>Emerald City Freelance Developer</h3>
+        <a class="btn btn-outline-light btn-lg nes-btn" href="#about"
+          >Learn More</a
+        >
+      </div>
+      <!-- END Landing Page Section -->
+    </div>
+
+    <div id="about" class="offset">
+      <!-- START Jumbotron -->
+      <div class=" nes-container jumbotron is-rounded">
+        <div class="col-12 text-center">
+          <br />
+          <br />
+          <h3 class="heading">About Me</h3>
+          <div class="heading-underline"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 my-pic text-center">
+            <img src="./assets/IMG1.JPG" />
+          </div>
+
+          <div class="col-md-4">
+            <p>
+              Technologically-savvy web developer who is passionate about
+              building beautiful applications and websites.
+            </p>
+            <p>
+              I am looking for a Technical Consulting role to refine and develop
+              my skills in the industry. I'm continuously innovating, developing
+              and focused on what the future holds. I possess a vast technical
+              knowledge of computer software, computer hardware and computer
+              networking.
+            </p>
+          </div>
+
+          <div class="col-md-4 text-center">
+            <div class="skills">
+              <i class="fas fa fa-database fa-3x"></i>
+              <h4>Skills</h4>
+            </div>
+            <table>
+              <tr>
+                <td>HTML 5</td>
+                <td>Node.js</td>
+              </tr>
+              <tr>
+                <td>CSS 3</td>
+                <td>Express.js</td>
+              </tr>
+              <tr>
+                <td>Bootstrap 4</td>
+                <td>React.js</td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>MySQL</td>
+              </tr>
+              <tr>
+                <td>jQuery</td>
+                <td>Sequelize</td>
+              </tr>
+              <tr>
+                <td>API/JSON</td>
+                <td>MongoDB</td>
+              </tr>
+              <tr>
+                <td>Heroku</td>
+                <td>Git</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio">
+       <div class="fixed-background">
+        <div class="row">
+          <div class="col-12 text-center">
+            <br>
+            <br>
+            <br>
+            <h3 style="color:white" class="heading">Portfolio</h3>
+            <div class="heading-underline"></div>
+          </div>
+        </div>
+
+        <div class="cards">
+          <div class="row justify-content-center">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    class="img-fluid"
+                    src="http://placeimg.com/250/250/tech"
+                    alt="placeholder"
+                    style="width:250px;height:250px;"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h4>Hangman</h4>
+                  <a
+                    class="btn btn-outline-light btn-md"
+                    href="https://cratose99.github.io/Word_Guess_Game/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
               </div>
             </div>
-          </nav>
-        </header>
-        
-        <!-- <h1>Gabriel Eyer</h1> -->
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    class="img-fluid"
+                    src="http://placeimg.com/250/250/tech "
+                    alt="placeholder"
+                    style="width:250px;height:250px;"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h4>Crystal Collector</h4>
+                  <a
+                    class="btn btn-outline-light btn-md"
+                    href="https://willieedwards.github.io/crystal-collector/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    class="img-fluid"
+                    src="http://placeimg.com/250/250/tech"
+                    alt="placeholder"
+                    style="width:250px;height:250px;"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h4>Karma San dio</h4>
+                  <a
+                    class="btn btn-outline-light btn-md"
+                    href="https://okyfunoky.github.io/whereinseattleiscarmen/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img
+                    class="img-fluid"
+                    src="http://placeimg.com/250/250/tech"
+                    alt="placeholder"
+                    style="width:250px;height:250px;"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h4>Trivia Game</h4>
+                  <a
+                    class="btn btn-outline-light btn-md"
+                    href="https://cratose99.github.io/TriviaGame/"
+                    target="_blank"
+                    >View</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- END Row-->
+        <div class="row justify-content-center">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  class="img-fluid"
+                  src="http://placeimg.com/250/250/tech"
+                  alt="placeholder"
+                  style="width:250px;height:250px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h4>SEAPOLL</h4>
+                <a
+                  class="btn btn-outline-light btn-md"
+                  href="https://seapoll.herokuapp.com"
+                  target="_blank"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  class="img-fluid"
+                  src="http://placeimg.com/250/250/tech"
+                  alt="placeholder"
+                  style="width:250px;height:250px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h4>Gif Tastic</h4>
+                <a
+                  class="btn btn-outline-light btn-md"
+                  href="https://cratose99.github.io/JiffyApp/."
+                  target="_blank"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  class="img-fluid"
+                  src="http://placeimg.com/250/250/tech"
+                  alt="placeholder"
+                  style="width:250px;height:250px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h4>Place holder</h4>
+                <a class="btn btn-outline-light btn-md" href="#" target="_blank"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img
+                  class="img-fluid"
+                  src="http://placeimg.com/250/250/tech"
+                  alt="placeholder"
+                  style="width:250px;height:250px;"
+                />
+              </div>
+              <div class="flip-card-back">
+                <h4>Place holder</h4>
+                <a class="btn btn-outline-light btn-md" href="#portfolio"
+                  >View</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fixed-wrap">
+            <div class="fixed">
+            </div>
+        </div>
+       </div> 
+      </div>
+        <!-- END Row-->
+
+      <div id="contact" class="offset">
+        <footer>
+          <div class="row justify-content-center">
+            <div class="col-md-5 text-center">
+              <div class="col-12">
+                <h3 class="heading">Contact</h3>
+                <div class="heading-underline"></div>
+              </div>
+              <div class="col-md-9 bio-table col-md-offset-4">
+                <div class="bio-table mb40">
+                  <table class="table table1">
+                    <tbody>
+                      <tr>
+                        <td>Full Name</td>
+                        <td>:</td>
+                        <td>Gabriel Eyer</td>
+                      </tr>
+                      <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>gabriel.eyer007@gmail.com</td>
+                      </tr>
+                      <tr>
+                        <td>Phone</td>
+                        <td>:</td>
+                        <td>253-448-4767</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!--/.bio-table-->
+              </div>
+              <a
+                href="https://www.linkedin.com/in/gabriel-eyer-313971b5/"
+                target="_blank"
+                ><i class="nes-icon linkedin is-large"></i
+              ></a>
+              <a href="https://github.com/Cratose99" target="_blank"
+                ><i class="nes-icon github is-large"></i
+              ></a>
+            </div>
+
+            <hr class="socket" />
+            &copy; Copyright
+          </div>
+        </footer>
+      </div>
+      <!-- <h1>Gabriel Eyer</h1>
     <section class="main-bio">
       
       <div class="nes-container is-rounded  is-centered main-bio1 crt">
-      <h2>About Me</h2>
-
-      <hr size="5" ; color="#777777" />
-
-      <img id="bio-image" src="./assets/IMG1.JPG" alt="Gabriel Eyer" style="width:310px;height:250px;"/>
+     
      
      
      
         <div class="para">
-          <p>
-            Hi, My name is Gabriel Eyer I love being immersed in technology, challenging my self with new problems and kicking my feet my up and playing stategy games. I think that the future is in the
-          hands of the developers. When we work together we can change the world!
-        </p>
-
-        <br />
-        
-        <p>
-          I'm continuously innovating, developing and focused on what our future holds. I have a vast technical knowledge of computer software, computer hardware and networking. I am guiding the way to a better today and the conception of a better future. With natural intuition of the workings of technology and the yearning to learn and converge on a goal. The idea of an obstacle is not of something that keeps me hindered but of something that allows me to overcome, conquer and enhance on what lies before me and therefore precedes. 
-        </p>
-
-        <br />
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis unde quo sed, aperiam amet itaque exercitationem ab similique molestiae excepturi suscipit et, magni, est iure ipsam a
-          reprehenderit officia ratione.
-        </p>
-        
-      </div>
+          -->
     </div>
-    </section>
-    
   </body>
-  </html>
+</html>
