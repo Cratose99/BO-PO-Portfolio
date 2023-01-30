@@ -34,9 +34,10 @@ body {
 .nav-link:hover {
   cursor: url('./assets/cursor-click.png'), auto !important;
 }
- .my-pic img { width: auto; height: 100%; margin-left: -50px; }
-}
-.my-pic { display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+/* .my-pic img {
+  width: 75%;
+ border-radius: 30%;
+}*/
 .home-inner {
   background-image: url(./assets/stars.gif);
 }
@@ -67,6 +68,9 @@ body {
   text-shadow: .1rem .1rem .5rem #000000;
   padding-bottom: 1.6rem;
 }
+
+.circular--landscape { display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
+.circular--landscape img { width: auto; height: 100%; margin-left: -50px; }
 
 .btn-lg {
   border-width: medium;
