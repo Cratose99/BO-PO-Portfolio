@@ -34,7 +34,7 @@ body {
 .nav-link:hover {
   cursor: url('./assets/cursor-click.png'), auto !important;
 }
- .my-pic img { width: 75%; height: 100%; margin-left: -50px; }
+ .my-pic img { width: auto; height: 100%; margin-left: -50px; }
 }
 .my-pic { display: inline-block; position: relative; width: 200px; height: 200px; overflow: hidden; border-radius: 50%; } 
 .home-inner {
