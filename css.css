@@ -240,7 +240,7 @@ hr.socket {
   background-color: #fff0 !important;
 }
 
-.margin 
+.margin{ margin: 0;} 
 /* .port{
   padding: 3%;
   position: fixed;
