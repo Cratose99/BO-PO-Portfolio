@@ -99,7 +99,9 @@ table {
   color: #03A9F3;
   margin-bottom: 1rem;
 }
-
+.fullscreen {
+  height:100vh
+}
 
 #portfolio {
   /* padding: 3rem 0 3.5rem; */
