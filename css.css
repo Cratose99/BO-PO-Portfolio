@@ -3,18 +3,20 @@
   scroll-behavior: smooth;
   cursor: url('./assets/cursor.png'), default !important;
 }
+
 body {
   overflow-x: hidden;
 
 }
 
 .navbar {
-  background-color: #fff   !important;
+  background-color: #fff !important;
   text-transform: uppercase;
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
 }
+
 .navbar-nav li {
   padding-right: .7rem;
 }
@@ -24,28 +26,33 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: black ;
+  color: black;
   padding-top: .8rem !important;
 }
+
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #03A9F3 !important;
 }
+
 .nav-link:hover {
   cursor: url('./assets/cursor-click.png'), auto !important;
 }
+
 .my-pic img {
   width: 75%;
 
 }
+
 .home-inner {
   background-image: url(./assets/seattle.gif);
 }
 
 .fixed {
-  background-image: url(./assets/final.gif);
+  background-image: url(./assets/creek.gif);
   z-index: -1;
-} 
+}
+
 .caption {
   width: 100%;
   max-width: 100%;
@@ -63,6 +70,7 @@ body {
   text-shadow: .1rem .1rem .8rem #000000;
   padding-bottom: 1rem;
 }
+
 .caption h3 {
   font-size: 2rem;
   text-shadow: .1rem .1rem .5rem #000000;
@@ -88,6 +96,7 @@ body {
 table {
   width: 100%;
 }
+
 .skills h4 {
   text-transform: uppercase;
   padding-bottom: .4rem;
@@ -122,14 +131,15 @@ table {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -191,37 +201,37 @@ hr.socket {
 /* Media Queries */
 
 @media (max-width: 767px) {
-.caption h1 {
-  font-size: 2.3rem;
-  letter-spacing: .15rem;
-  padding-bottom: .5rem;
+  .caption h1 {
+    font-size: 2.3rem;
+    letter-spacing: .15rem;
+    padding-bottom: .5rem;
+  }
+
+  .caption h3 {
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .my-pic img {
+    max-width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+  .tests img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
-.caption h3 {
-  font-size: 1.2rem;
-  padding-bottom: 1.2rem;
-}
-
-.btn-lg {
-  padding: .5rem 1rem;
-  font-size: 1rem;
-}
-
-.my-pic img {
-  max-width: 60%;
-  display: block;
-  margin: 0 auto;
-  padding-top: 0;
-}
-
-.tests img {
-  max-width: 50%;
-  display: block;
-  margin: 0 auto;
-}
-}
-
-.table1{
+.table1 {
   color: white;
 }
 
