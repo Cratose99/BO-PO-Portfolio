@@ -51,6 +51,7 @@ body {
 .fixed {
   background-image: url(./assets/creeks.gif);
   z-index: -1;
+  height:100vh;
 }
 
 .caption {
