@@ -25,7 +25,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: black;
+  color: white;
   padding-top: .8rem !important;
 }
 
@@ -54,7 +54,7 @@ body {
 .fixed-background {
   background-image: url(./assets/bridge.jpg);
   z-index: -1;
-  height: 100vh;
+  height: 100vh;  
   position: relative;
   width: 100%;
 }
