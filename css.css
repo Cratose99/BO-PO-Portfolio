@@ -43,7 +43,9 @@ body {
   width: 75%;
 
 }
-
+.bold{
+  font-weight: bold
+}
 .home-inner {
   background-image: url(./assets/seattle.gif);
 }
