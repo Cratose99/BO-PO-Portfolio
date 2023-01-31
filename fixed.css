@@ -45,10 +45,10 @@
   }
   
   /*--- iOS Fixed Background Image --*/
-  .fixed-background {
+  /* .fixed-background {
     position: relative;
     width: 100%;
-  }
+  } */
   .fixed-wrap {
     clip: rect(0, auto, auto, 0);
     position: absolute;

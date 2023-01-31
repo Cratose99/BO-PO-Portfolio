@@ -42,17 +42,21 @@ body {
   width: 75%;
 
 }
-.bold{
+
+.bold {
   font-weight: bold
 }
+
 .home-inner {
   background-image: url(./assets/seattle.gif);
 }
 
-.fixed {
-  background-image: url(./assets/creeks.gif);
+.fixed-background {
+  background-image: url(./assets/bridge.jpg);
   z-index: -1;
-  height:100vh;
+  height: 100vh;
+  position: relative;
+  width: 100%;
 }
 
 .caption {
@@ -239,7 +243,10 @@ hr.socket {
   background-color: #fff0 !important;
 }
 
-.margin{ margin: 0;} 
+.margin {
+  margin: 0;
+}
+
 /* .port{
   padding: 3%;
   position: fixed;
