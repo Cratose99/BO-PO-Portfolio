@@ -9,14 +9,10 @@
   margin-right: 0px!important;
   }
   
-  /*--- Fix for Fixed Navbar jumping on scroll --*/
- /* .fixed-top  {
-   -webkit-backface-visibility: hidden;
-  }
-  */
+
   /*--- Fixed Landing Page Section --*/
   .landing {
-    /* position: relative; */
+    position: relative;
     width: 100%;
     height: 100vh;
     display: table;
@@ -45,10 +41,14 @@
   }
   
   /*--- iOS Fixed Background Image --*/
-  /* .fixed-background {
-    position: relative;
+  .fixed-background {
+    
     width: 100%;
-  } */
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+
+  }
   .fixed-wrap {
     clip: rect(0, auto, auto, 0);
     position: absolute;

@@ -51,12 +51,9 @@ body {
   background-image: url(./assets/seattle.gif);
 }
 
-.fixed-background {
-  background-image: url(./assets/bridge.jpg);
+.fixed {
+  background-image: url(./assets/material.jpg);
   z-index: -1;
-  height: 100vh;  
-  position: relative;
-  width: 100%;
 }
 
 .caption {
