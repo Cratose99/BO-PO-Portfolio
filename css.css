@@ -49,7 +49,7 @@ body {
 }
 
 .fixed {
-  background-image: url(./assets/creek.gif);
+  background-image: url(./assets/creeks.gif);
   z-index: -1;
 }
 
@@ -108,9 +108,6 @@ table {
 }
 
 
-#portfolio {
-  /* padding: 3rem 0 3.5rem; */
-}
 
 .cards {
   padding-top: 1rem;
